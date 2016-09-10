@@ -24,7 +24,7 @@
     <![endif]-->
   </head>
   <body>
-    <div class="navigation-bar">
+    <div class="navigation-bar navigation-dark">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 clearfix">
@@ -40,32 +40,146 @@
         </div>
       </div>
     </div>
-    <nav class="navigation-main no-display navigation-closed">
+    <nav class="navigation-main navigation-closed">
       <ul class="navigation-list text-center">
         <a href="#"><li class="text-light">Home</li></a>
-        <a href="#home-about"><li class="text-light">About</li>
-        <a href="#home-work"><li class="text-light">Work</li>
-        <a href="#home-social-media"><li class="text-light">News</li>
-        <a href="#home-contact"><li class="text-light">Contact</li>
+        <a href="#home-about"><li class="text-light">About</li></a>
+        <a href="#home-work"><li class="text-light">Work</li></a>
+        <a href="#home-social-media"><li class="text-light">News</li></a>
+        <a href="#home-contact"><li class="text-light">Contact</li></a>
       </ul>
     </nav>
 
-    <header id="youniverse-header" class="fullscreen overlay-dark">
+    <header id="work-header" class="half-screen">
       <div class="header-wrapper">
         <div class="header-center">
-          <h1 class="text-light">Create Incredible</h1>
+          <h1>Work</h1>
         </div>
-        <div class="header-baseline">
-          <a href="#home-about"><i class="fa fa-chevron-down text-light header-icon" aria-hidden="true"></i></a>
+        <div class="work-filters">
+          <ul class="work-filter-list">
+            <a href="#digital"><li>Digital</li></a>
+            <a href="#print"><li>Print</li></a>
+            <a href="#game"><li>Game</li></a>
+            <a href="#brand"><li>Brand</li></a>
+            <a href="#television"><li>Television</li></a>
+            <a href="#photography"><li>Photography</li></a>
+            <a href="#concept"><li>Concept</li></a>
+          </ul>
         </div>
       </div>
     </header>
 
-    <section id="home-about" class="text-center main-body">
+    <section id="work-list"  class="text-center main-body">
+      <div class="work-list clearfix">
+        <div class="work-item" id="digital">
+          <div class="work-item-left" style="background-image: url('/img/port2.jpg')">&nbsp</div>
+          <div class="work-item-right" style="background-image: url('/img/port6.jpg')">&nbsp</div>
+          <div class="work-item-info item-hidden">
+            <div class="work-info-wrapper">
+              <h6 class="text-light">Digital</h6>
+              <a href="#" class="button button-light button-work">View Projects</a>
+            </div>
+          </div>
+        </div>
+        <div class="work-item" id="print">
+          <div class="work-item-left" style="background-image: url('/img/port3.jpg')">&nbsp</div>
+          <div class="work-item-right" style="background-image: url('/img/port1.jpg')">&nbsp</div>
+          <div class="work-item-info item-hidden">
+            <div class="work-info-wrapper">
+              <h6 class="text-light">Print design and illustration</h6>
+              <a href="#" class="button button-light button-work">View Projects</a>
+            </div>
+          </div>
+        </div>
+        <div class="work-item" id="game">
+          <div class="work-item-left" style="background-image: url('/img/port7.jpeg')">&nbsp</div>
+          <div class="work-item-right" style="background-image: url('/img/port8.jpeg')">&nbsp</div>
+          <div class="work-item-info item-hidden">
+            <div class="work-info-wrapper">
+              <h6 class="text-light">Game Design</h6>
+              <a href="#" class="button button-light button-work">View Projects</a>
+            </div>
+          </div>
+        </div>
+        <div class="work-item" id="brand">
+          <div class="work-item-full" style="background-image: url('/img/port9.jpg')">&nbsp</div>
+          <div class="work-item-info item-hidden">
+            <div class="work-info-wrapper">
+              <h6 class="text-light">Brand Development</h6>
+              <a href="#" class="button button-light button-work">View Projects</a>
+            </div>
+          </div>
+        </div>
+        <div class="work-item" id="television">
+          <div class="work-item-full" style="background-image: url('/img/port10.jpg')">&nbsp</div>
+          <div class="work-item-info item-hidden">
+            <div class="work-info-wrapper">
+              <h6 class="text-light">Television</h6>
+              <a href="#" class="button button-light button-work">View Projects</a>
+            </div>
+          </div>
+        </div>
+        <div class="work-item" id="photography">
+          <div class="work-item-left" style="background-image: url('/img/port11.jpg')">&nbsp</div>
+          <div class="work-item-right" style="background-image: url('/img/port12.jpg')">&nbsp</div>
+          <div class="work-item-info item-hidden">
+            <div class="work-info-wrapper">
+              <h6 class="text-light">Photography</h6>
+              <a href="#" class="button button-light button-work">View Projects</a>
+            </div>
+          </div>
+        </div>
+        <div class="work-item" id="concept">
+          <div class="work-item-left" style="background-image: url('/img/port13.jpg')">&nbsp</div>
+          <div class="work-item-right" style="background-image: url('/img/port14.jpg')">&nbsp</div>
+          <div class="work-item-info item-hidden">
+            <div class="work-info-wrapper">
+              <h6 class="text-light">Concept</h6>
+              <a href="#" class="button button-light button-work">View Projects</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="from-the-vault" class="text-center">
       <div class="container">
         <div class="row subtitle-row">
           <div class="col-sm-12">
-            <h2>A few words about us</h2>
+            <h1>From the vaults</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam ut labore et dolore magna aliqua. Ut enim ad minim veniam
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="work-item half" style="background-image: url('/img/vault1.jpg')">
+        <div class="work-item-info item-hidden">
+          <div class="work-info-wrapper">
+            <h6 class="text-light">Vault 1</h6>
+            <a href="#" class="button button-light button-work">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="work-item half" style="background-image: url('/img/vault2.jpg')">
+        <div class="work-item-info item-hidden">
+          <div class="work-info-wrapper">
+            <h6 class="text-light">Vault 2</h6>
+            <a href="#" class="button button-light button-work">View Project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work-contact" class="text-center">
+      <div class="container">
+        <div class="row subtitle-row">
+          <div class="col-sm-12">
+            <h2>Say hello!</h2>
           </div>
         </div>
         <div class="row">
@@ -73,10 +187,6 @@
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-            <p class="bottom-lead">
-              ...and by adding a little bit of magic
-            </p>
-            <img class="wand-img" src="/img/wand.png" alt="An image of a wand" />
           </div>
         </div>
       </div>

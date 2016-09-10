@@ -89,6 +89,17 @@ section {
   width: 100%;
 }
 
+.third-screen {
+  height: 30vh;
+  width: 100%;
+}
+
+.half-screen {
+  position: relative;
+  height: 50vh;
+  width: 100%;
+}
+
 .overlay-dark {
   position: relative;
   z-index: 0;
@@ -225,6 +236,7 @@ section {
   height: 100%;
   z-index: 6;
   transition: opacity 0.2s ease-in-out;
+  display: none;
 }
 
 .navigation-main .navigation-list {
@@ -269,6 +281,10 @@ section {
 
 .navigation-open {
   overflow: hidden;
+}
+
+.navigation-dark {
+  background-color: #434343 !important;
 }
 
 .header-wrapper {
@@ -487,4 +503,75 @@ footer ul li {
 footer ul li i {
   color: white;
   font-size: 20px !important;
+}
+
+/* Work Page Specific Styles */
+
+#work-header {
+  background-color: #ebece7;
+}
+
+.work-filter-list {
+  list-style: none;
+  padding: 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 15%;
+  white-space: nowrap;
+}
+
+.work-filter-list li {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  white-space: nowrap;
+  font-family: 'Lora', serif;
+  font-size: 19px;
+}
+
+#work-list {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+#work-list .work-container {
+  margin-top: 0;
+}
+
+#work-list .work-item {
+  width: 100%;
+  float: left;
+}
+
+.work-item-left, .work-item-right, .work-item-full {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.work-item-left {
+  width: 50%;
+  height: 100%;
+  background-color: pink;
+  float: left;
+}
+
+.work-item-right {
+  width: 50%;
+  height: 100%;
+  background-color: green;
+  float: left;
+}
+
+.work-item-full {
+  width: 100%;
+  height: 100%;
+  background-color: purple;
+  float: left;
+}
+
+#from-the-vault .work-item {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
