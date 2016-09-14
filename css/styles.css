@@ -4,6 +4,7 @@
   Light Text - White
   Dark Text - #434343
   About Background - #ebece7
+  Muted Dark Background - #5D5959
 */
 
 /* Font Optimisation */
@@ -483,6 +484,7 @@ section {
 footer {
   background-color: #434343;
   overflow: hidden;
+  width: 100%;
 }
 
 footer img {
@@ -575,4 +577,65 @@ footer ul li i {
 #from-the-vault .work-item {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+/* Single Specific Styles */
+
+.header-half {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  height: 50vh;
+  width: 50%;
+  background-color: #5D5959;
+  color: white;
+}
+
+.header-half h1 {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 50px;
+}
+
+.header-half-image {
+  left: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#single-work-section {
+  margin-top: 80px;
+  padding: 0;
+}
+
+#single-work-section .single-half .single-block {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  height: 50vh;
+  /*background-color: yellow;*/
+  float: left;
+}
+
+.single-img-container {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#single-work-section .single-half.single-img-right .single-img-container {
+  float: right !important;
+}
+
+.single-text-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.single-text-container h2 {
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
