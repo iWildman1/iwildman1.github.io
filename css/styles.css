@@ -31,7 +31,7 @@ h1 {
 }
 
 h2 {
-  font-size: 34px;
+  font-size: 38px;
 }
 
 h6 {
@@ -92,6 +92,11 @@ section {
 
 .third-screen {
   height: 30vh;
+  width: 100%;
+}
+
+.two-third-screen {
+  height: 66vh;
   width: 100%;
 }
 
@@ -314,6 +319,43 @@ section {
 
 .header-icon {
   font-size: 24px;
+}
+
+.header-data-container {
+  white-space: normal;
+  width: 100%;
+  margin-top: 30px;
+}
+
+#company-header {
+  position: relative;
+  background-color: #ebece7;
+}
+
+.company-header {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 80px);
+}
+
+.company-header-wrapper {
+  position: relative;
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.company-header-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-60%);
+}
+
+.company-header-center h1 {
+  margin-bottom: 80px;
 }
 
 /* About Specific Styles */
@@ -641,4 +683,133 @@ footer ul li i {
 .single-text-container h2 {
   margin-top: 30px;
   margin-bottom: 40px;
+}
+
+/* Company Specific Styles */
+
+.company-filter-list {
+  list-style: none;
+}
+
+.company-filter-list li {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 20px;
+}
+
+.company-filter-list li.active {
+  text-decoration: underline;
+}
+
+#company-main {
+  padding: 0;
+  margin: 0;
+}
+
+.company-row {
+  height: 600px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.company-block {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+
+.company-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.company-img-right .company-img {
+  float: right;
+}
+
+.company-description .company-data {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.company-description .company-data h2, .company-description .company-data p {
+  margin-bottom: 40px;
+}
+
+.company-description .company-data p {
+  font-size: 17px;
+}
+
+#company-three-col {
+  padding: 0;
+  margin: 0;
+}
+
+.company-more-row {
+  height: 400px;
+}
+
+.company-more-item {
+  box-sizing: border-box;
+  width: 33.33333%;
+  height: 100%;
+  background-color: yellow;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  float: left;
+}
+
+.team-grid {
+  margin-top: 30px;
+}
+
+.team-member {
+  box-sizing: border-box;
+  height: 300px;
+  width: 25%;
+  background-color: lightgrey;
+  float: left;
+}
+
+.team-member:nth-child(even) {
+  background-color: grey;
+}
+
+.content-row {
+  margin-top: 40px;
+}
+
+.content-row img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.partners-table {
+  display: table;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.partners-images, .partners-descriptions {
+  display: table-row;
+}
+
+.partners-descriptions .partner-data h3 {
+  margin-top: 40px;
+}
+
+.partners-images .partner-img, .partners-descriptions .partner-data {
+  display: table-cell;
+}
+
+.partners-images .partner-img img {
+  max-width: 80%;
+  vertical-align: middle;
 }
