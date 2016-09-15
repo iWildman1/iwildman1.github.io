@@ -41,34 +41,6 @@ $('.nav-toggle').click(function() {
   }
 })
 
-//Handle Navigation Affix
-
-var bodyOffset = 0;
-var scrollPos = 0;
-var passedMarker = false;
-var navFixed = false;
-
-$(window).scroll(function() {
-  scrollPos = $(this).scrollTop();
-  bodyOffset = $('.main-body').offset().top;
-
-  if (scrollPos > (bodyOffset - 85)) {
-    passedMarker = true;
-  } else {
-    passedMarker = false;
-  }
-
-  console.log(passedMarker);
-
-  if (passedMarker && !navFixed) {
-    $('.navigation-bar').addClass('navigation-fixed');
-    navFixed = true;
-  } else if (!passedMarker && navFixed) {
-    $('.navigation-bar').removeClass('navigation-fixed');
-    navFixed = false;
-  }
-})
-
 // Handle Smooth scroll
 
 $(document).ready(function () {
