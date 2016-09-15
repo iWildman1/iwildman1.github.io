@@ -85,6 +85,10 @@ section {
   color: white;
 }
 
+.animate-fade {
+  opacity: 0;
+}
+
 .fullscreen {
   height: 100vh;
   width: 100%;
@@ -578,6 +582,14 @@ footer ul li i {
   font-size: 19px;
 }
 
+.work-filter-list li:hover {
+  text-decoration: underline;
+}
+
+.work-filter-list li.active {
+  text-decoration: underline;
+}
+
 #work-list {
   padding-top: 0;
   margin-top: 0;
@@ -587,36 +599,15 @@ footer ul li i {
   margin-top: 0;
 }
 
-#work-list .work-item {
-  width: 100%;
-  float: left;
-}
-
-.work-item-left, .work-item-right, .work-item-full {
-  background-size: cover;
+#work-list .work-item, #from-the-vault .work-item {
+  position: relative;
+  width: 33.3333%;
+  height: 400px;
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
-}
-
-.work-item-left {
-  width: 50%;
-  height: 100%;
-  background-color: pink;
   float: left;
-}
-
-.work-item-right {
-  width: 50%;
-  height: 100%;
-  background-color: green;
-  float: left;
-}
-
-.work-item-full {
-  width: 100%;
-  height: 100%;
-  background-color: purple;
-  float: left;
+  transition: opacity 0.3s ease-in-out;
 }
 
 #from-the-vault .work-item {

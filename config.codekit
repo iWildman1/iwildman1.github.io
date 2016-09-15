@@ -361,6 +361,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/port15.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 166226,
+		"inputAbbreviatedPath": "\/img\/port15.jpg",
+		"outputAbbreviatedPath": "\/img\/port15.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/port2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -522,6 +533,17 @@
 		"initialSize": 422918,
 		"inputAbbreviatedPath": "\/img\/vault2.jpg",
 		"outputAbbreviatedPath": "\/img\/vault2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vault3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 160447,
+		"inputAbbreviatedPath": "\/img\/vault3.jpg",
+		"outputAbbreviatedPath": "\/img\/vault3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

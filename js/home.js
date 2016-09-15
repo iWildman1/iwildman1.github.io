@@ -55,3 +55,36 @@ $(document).ready(function () {
         });
     });
 });
+
+//Handle Filtering
+
+$('.content-filter').click(function(e) {
+  e.preventDefault;
+
+  var filterType = $(this).attr('data-filter');
+
+  var listItem = $(this).children('li');
+
+  listItem.addClass('active');
+  listItem.parent().siblings().find('li').removeClass('active');
+
+  console.log('Filter Type: ' + filterType);
+
+  $('.work-item').each(function() {
+    item = $(this);
+
+    if (item.attr('data-worktype') != filterType && filterType != 'all') {
+      item.addClass('animate-fade');
+
+      setTimeout(function() {
+        console.log('attempting...');
+        $('.animate-fade').css('display', 'none');
+      }, 300);
+    } else if (item.attr('data-worktype') === filterType || filterType === 'all') {
+      $('.animate-fade').css('display', 'block');
+      item.removeClass('animate-fade');
+    }
+  })
+
+  return false;
+})

@@ -57,85 +57,114 @@
         </div>
         <div class="work-filters">
           <ul class="work-filter-list">
-            <a href="#digital"><li>Digital</li></a>
-            <a href="#print"><li>Print</li></a>
-            <a href="#game"><li>Game</li></a>
-            <a href="#brand"><li>Brand</li></a>
-            <a href="#television"><li>Television</li></a>
-            <a href="#photography"><li>Photography</li></a>
-            <a href="#concept"><li>Concept</li></a>
+            <a href="#" class="content-filter" data-filter="digital"><li>Digital</li></a>
+            <a href="#" class="content-filter" data-filter="print"><li>Print</li></a>
+            <a href="#" class="content-filter" data-filter="game"><li>Game</li></a>
+            <a href="#" class="content-filter" data-filter="brand"><li>Brand</li></a>
+            <a href="#" class="content-filter" data-filter="television"><li>Television</li></a>
+            <a href="#" class="content-filter" data-filter="photography"><li>Photography</li></a>
+            <a href="#" class="content-filter" data-filter="concept"><li>Concept</li></a>
+            <a href="#" class="content-filter" data-filter="all"><li class="active">All</li></a>
           </ul>
         </div>
       </div>
     </header>
 
     <section id="work-list"  class="text-center main-body">
-      <div class="work-list clearfix">
-        <div class="work-item" id="digital">
-          <div class="work-item-left" style="background-image: url('/img/port2.jpg')">&nbsp</div>
-          <div class="work-item-right" style="background-image: url('/img/port6.jpg')">&nbsp</div>
+      <div class="work-three-col">
+        <div class="work-item" style="background-image: url('/img/port2.jpg')" data-worktype="digital">
           <div class="work-item-info item-hidden">
             <div class="work-info-wrapper">
-              <h6 class="text-light">Digital</h6>
-              <a href="#" class="button button-light button-work">View Projects</a>
+              <h6 class="text-light">Item 1</h6>
+              <a href="#" class="button button-light button-work">View Project</a>
             </div>
           </div>
         </div>
-        <div class="work-item" id="print">
-          <div class="work-item-left" style="background-image: url('/img/port3.jpg')">&nbsp</div>
-          <div class="work-item-right" style="background-image: url('/img/port1.jpg')">&nbsp</div>
+        <div class="work-item" style="background-image: url('/img/port6.jpg')" data-worktype="digital">
           <div class="work-item-info item-hidden">
             <div class="work-info-wrapper">
-              <h6 class="text-light">Print design and illustration</h6>
-              <a href="#" class="button button-light button-work">View Projects</a>
+              <h6 class="text-light">Item 2</h6>
+              <a href="#" class="button button-light button-work">View Project</a>
             </div>
           </div>
         </div>
-        <div class="work-item" id="game">
-          <div class="work-item-left" style="background-image: url('/img/port7.jpeg')">&nbsp</div>
-          <div class="work-item-right" style="background-image: url('/img/port8.jpeg')">&nbsp</div>
+        <div class="work-item" style="background-image: url('/img/port7.jpeg')" data-worktype="print">
           <div class="work-item-info item-hidden">
             <div class="work-info-wrapper">
-              <h6 class="text-light">Game Design</h6>
-              <a href="#" class="button button-light button-work">View Projects</a>
+              <h6 class="text-light">Item 3</h6>
+              <a href="#" class="button button-light button-work">View Project</a>
             </div>
           </div>
         </div>
-        <div class="work-item" id="brand">
-          <div class="work-item-full" style="background-image: url('/img/port9.jpg')">&nbsp</div>
+        <div class="work-item" style="background-image: url('/img/port1.jpg')" data-worktype="game">
           <div class="work-item-info item-hidden">
             <div class="work-info-wrapper">
-              <h6 class="text-light">Brand Development</h6>
-              <a href="#" class="button button-light button-work">View Projects</a>
+              <h6 class="text-light">Item 4</h6>
+              <a href="#" class="button button-light button-work">View Project</a>
             </div>
           </div>
         </div>
-        <div class="work-item" id="television">
-          <div class="work-item-full" style="background-image: url('/img/port10.jpg')">&nbsp</div>
+        <div class="work-item" style="background-image: url('/img/port8.jpeg')" data-worktype="game">
           <div class="work-item-info item-hidden">
             <div class="work-info-wrapper">
-              <h6 class="text-light">Television</h6>
-              <a href="#" class="button button-light button-work">View Projects</a>
+              <h6 class="text-light">Item 5</h6>
+              <a href="#" class="button button-light button-work">View Project</a>
             </div>
           </div>
         </div>
-        <div class="work-item" id="photography">
-          <div class="work-item-left" style="background-image: url('/img/port11.jpg')">&nbsp</div>
-          <div class="work-item-right" style="background-image: url('/img/port12.jpg')">&nbsp</div>
+        <div class="work-item" style="background-image: url('/img/port3.jpg')" data-worktype="brand">
           <div class="work-item-info item-hidden">
             <div class="work-info-wrapper">
-              <h6 class="text-light">Photography</h6>
-              <a href="#" class="button button-light button-work">View Projects</a>
+              <h6 class="text-light">Item 6</h6>
+              <a href="#" class="button button-light button-work">View Project</a>
             </div>
           </div>
         </div>
-        <div class="work-item" id="concept">
-          <div class="work-item-left" style="background-image: url('/img/port13.jpg')">&nbsp</div>
-          <div class="work-item-right" style="background-image: url('/img/port14.jpg')">&nbsp</div>
+        <div class="work-item" style="background-image: url('/img/port12.jpg')" data-worktype="television">
           <div class="work-item-info item-hidden">
             <div class="work-info-wrapper">
-              <h6 class="text-light">Concept</h6>
-              <a href="#" class="button button-light button-work">View Projects</a>
+              <h6 class="text-light">Item 7</h6>
+              <a href="#" class="button button-light button-work">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="work-item" style="background-image: url('/img/port14.jpg')" data-worktype="photography">
+          <div class="work-item-info item-hidden">
+            <div class="work-info-wrapper">
+              <h6 class="text-light">Item 8</h6>
+              <a href="#" class="button button-light button-work">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="work-item" style="background-image: url('/img/port11.jpg')" data-worktype="concept">
+          <div class="work-item-info item-hidden">
+            <div class="work-info-wrapper">
+              <h6 class="text-light">Item 9</h6>
+              <a href="#" class="button button-light button-work">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="work-item" style="background-image: url('/img/port9.jpg')" data-worktype="photography">
+          <div class="work-item-info item-hidden">
+            <div class="work-info-wrapper">
+              <h6 class="text-light">Item 10</h6>
+              <a href="#" class="button button-light button-work">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="work-item" style="background-image: url('/img/port10.jpg')">
+          <div class="work-item-info item-hidden">
+            <div class="work-info-wrapper">
+              <h6 class="text-light">Item 11</h6>
+              <a href="#" class="button button-light button-work">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="work-item" style="background-image: url('/img/port15.jpg')">
+          <div class="work-item-info item-hidden">
+            <div class="work-info-wrapper">
+              <h6 class="text-light">Item 12</h6>
+              <a href="#" class="button button-light button-work">View Project</a>
             </div>
           </div>
         </div>
@@ -173,6 +202,14 @@
           </div>
         </div>
       </div>
+      <div class="work-item half" style="background-image: url('/img/vault3.jpg')">
+        <div class="work-item-info item-hidden">
+          <div class="work-info-wrapper">
+            <h6 class="text-light">Vault 3</h6>
+            <a href="#" class="button button-light button-work">View Project</a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="work-contact" class="text-center">
@@ -185,7 +222,7 @@
         <div class="row">
           <div class="col-sm-12">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              This could be the beginning of a beautiful relationship
             </p>
           </div>
         </div>
