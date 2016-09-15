@@ -70,7 +70,7 @@ $('.content-filter').click(function(e) {
 
   console.log('Filter Type: ' + filterType);
 
-  $('.work-item').each(function() {
+  $('.work-item.filterable').each(function() {
     item = $(this);
 
     if (item.attr('data-worktype') != filterType && filterType != 'all') {
