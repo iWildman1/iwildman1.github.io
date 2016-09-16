@@ -5,6 +5,7 @@
   Dark Text - #434343
   About Background - #ebece7
   Muted Dark Background - #5D5959
+  Corrected Dark Background - #252d2f
 */
 
 /* Font Optimisation */
@@ -388,7 +389,7 @@ section {
   box-sizing: border-box;
   display: inline-block;
   position: relative;
-  height: 50vh;
+  height: 600px;
   float: left;
   background-color: yellow;
   background-repeat: no-repeat;
@@ -407,7 +408,7 @@ section {
 .work-item-info {
   position: absolute;
   width: 100%;
-  height: 25%;
+  height: 35%;
   background-color: rgba(0, 0, 0, 0.6);
   bottom: 0;
   opacity: 1;
@@ -427,12 +428,14 @@ section {
 }
 
 .work-item-info h6{
-  font-family: 'Lora', serif;
-  margin-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  margin-bottom: 25px;
 }
 
 .button-work {
-  font-family: 'Lora', serif;
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
 }
 
 /* Client Specific Styles */
@@ -534,26 +537,28 @@ footer {
   background-color: #434343;
   overflow: hidden;
   width: 100%;
+  height: 125px;
 }
 
 footer img {
-  width: 250px;
+  width: 400px;
   margin-top: 30px;
 }
 
-footer ul {
+.footer-social {
   list-style: none;
   padding-left: 10px;
+  padding-top: 30px;
 }
 
-footer ul li {
+.footer-social li {
   display: inline-block;
   padding: 0 10px;
   margin-top: 20px;
 }
 
-footer ul li i {
-  color: white;
+.footer-social li i {
+  color: #252d2f;
   font-size: 20px !important;
 }
 
