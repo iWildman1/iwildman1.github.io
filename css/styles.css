@@ -166,7 +166,7 @@ section {
 
 .navigation-bar.navigation-fixed {
   position: fixed;
-  background-color: #434343;
+  background-color: #252d2f !important;
   z-index: 100;
 }
 
