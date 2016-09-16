@@ -25,6 +25,7 @@
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
+  color: #252d2f;
 }
 
 h1 {
@@ -145,6 +146,16 @@ section {
 
 .no-display {
   display: none;
+}
+
+.bordered {
+  border-top: 1px solid #252d2f;
+}
+
+.small-container {
+  min-width: 900px;
+  width: 70%;
+  margin: 0 auto;
 }
 
 /* Header-Specific Styles */
@@ -576,6 +587,7 @@ footer img {
   transform: translateX(-50%);
   bottom: 15%;
   white-space: nowrap;
+  text-transform: lowercase;
 }
 
 .work-filter-list li {
@@ -607,7 +619,7 @@ footer img {
 #work-list .work-item, #from-the-vault .work-item {
   position: relative;
   width: 33.3333%;
-  height: 400px;
+  height: 450px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -618,6 +630,10 @@ footer img {
 #from-the-vault .work-item {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+#from-the-vault h1 {
+  padding-top: 50px;
 }
 
 /* Single Specific Styles */
@@ -729,6 +745,10 @@ footer img {
   float: right;
 }
 
+.company-description {
+  padding-top: 50px;
+}
+
 .company-description .company-data {
   width: 90%;
   margin: 0 auto;
@@ -768,14 +788,22 @@ footer img {
 
 .team-member {
   box-sizing: border-box;
-  height: 300px;
+  height: 350px;
   width: 25%;
   background-color: lightgrey;
   float: left;
 }
 
-.team-member:nth-child(even) {
+.team-member.light {
   background-color: grey;
+}
+
+#company-partners {
+  padding-bottom: 50px;
+}
+
+#company-partners h2 {
+  padding-top: 50px;
 }
 
 .content-row {
@@ -808,4 +836,12 @@ footer img {
 .partners-images .partner-img img {
   max-width: 80%;
   vertical-align: middle;
+}
+
+.partner-img {
+  padding: 10px 20px;
+}
+
+.partner-data p {
+  padding: 5px 25px;
 }
