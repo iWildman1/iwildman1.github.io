@@ -460,6 +460,83 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/single1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46089,
+		"inputAbbreviatedPath": "\/img\/single1.jpg",
+		"outputAbbreviatedPath": "\/img\/single1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/single2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 317612,
+		"inputAbbreviatedPath": "\/img\/single2.jpg",
+		"outputAbbreviatedPath": "\/img\/single2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/single3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 459419,
+		"inputAbbreviatedPath": "\/img\/single3.jpg",
+		"outputAbbreviatedPath": "\/img\/single3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/single4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 263316,
+		"inputAbbreviatedPath": "\/img\/single4.jpg",
+		"outputAbbreviatedPath": "\/img\/single4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/single5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 169318,
+		"inputAbbreviatedPath": "\/img\/single5.jpg",
+		"outputAbbreviatedPath": "\/img\/single5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/single6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 205034,
+		"inputAbbreviatedPath": "\/img\/single6.jpg",
+		"outputAbbreviatedPath": "\/img\/single6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/single7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 627996,
+		"inputAbbreviatedPath": "\/img\/single7.jpg",
+		"outputAbbreviatedPath": "\/img\/single7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/social1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
