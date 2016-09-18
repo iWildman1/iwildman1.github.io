@@ -8,6 +8,30 @@ $('.work-item').mouseleave(function() {
   $(this).find('.work-item-info').addClass('item-hidden');
 });
 
+//Handle Responsiveness for Work Items
+
+$(document).ready(function() {
+  forceWorkItemVisibility();
+})
+
+$(window).resize(function() {
+  forceWorkItemVisibility();
+});
+
+var visibilityForced = false;
+
+function forceWorkItemVisibility() {
+  var windowWidth = $(window).width();
+
+  if (windowWidth <= 768 && !visibilityForced) {
+    $('.work-item-info').addClass('force-item-info-visibility');
+    visibilityForced = true;
+  } else if (windowWidth > 768 && visibilityForced) {
+    $('.work-item-info').removeClass('force-item-info-visibility');
+    visibilityForced = false;
+  }
+}
+
 // Handle Masonry/Packery grid for Social Media (Homepage)
 
 var elem = document.querySelector('.social-media-grid');
@@ -69,6 +93,7 @@ $('.content-filter').click(function(e) {
   listItem.parent().siblings().find('li').removeClass('active');
 
   console.log('Filter Type: ' + filterType);
+  $('#filter-name').text(filterType);
 
   $('.work-item.filterable').each(function() {
     item = $(this);
@@ -87,4 +112,18 @@ $('.content-filter').click(function(e) {
   })
 
   return false;
+})
+
+// Handle Mobile Filter Menu Toggle
+
+var mobileToggleActive = false;
+
+$('#mobile-menu-toggler').click(function() {
+  if (!mobileToggleActive) {
+    $('.mobile-toggle-menu').addClass('toggle-on').removeClass('toggle-off');
+    mobileToggleActive = true;
+  } else {
+    $('.mobile-toggle-menu').removeClass('toggle-on').addClass('toggle-off');
+    mobileToggleActive = false;
+  }
 })
